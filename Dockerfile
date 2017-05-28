@@ -4,8 +4,6 @@ ENV GRAPHITEHOST graphite.example.com
 ENV GRAPHITEPORT 2003
 ENV STATSDPORT 8125
 
-#RUN apk add --update nodejs nodejs-npm && npm install npm@latest -g
-
 RUN apk update && apk add nodejs
 
 RUN \
